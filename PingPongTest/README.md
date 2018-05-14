@@ -1,4 +1,4 @@
-= Unity 3D - Simple Object Bouncing/Acceleration/Glue Behaviour =
+# Unity 3D - Simple Object Bouncing/Acceleration/Glue Behaviour
 
 One single execution behaviour (script) on the player (red) and a property definition script on each obstacle (green) make the entire physics ping-pong happen. There is no additional code for movement in this scene other than the force applied each time the player hits the green obstacle. 
 

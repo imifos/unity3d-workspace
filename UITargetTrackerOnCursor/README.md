@@ -2,6 +2,10 @@
 
 A simple behaviour implementing an UI cursor on the 3D object currenly pointed at. A frame is drawn using a 9-slice sprite and 2 texts and 2 images are added to simulate kind of indicators.
 
+In Action:
+
+https://vimeo.com/271881083
+
 Code in: 
 * Assets/UITargetTracker.cs - UI elements manager
 

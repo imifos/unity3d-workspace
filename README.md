@@ -1,6 +1,7 @@
 # unity3d-workspace
 
-More information and videos with the code in action can be found in each sub-project.
+More information and videos with the code in action can be found in each sub-project. Some projects are also discussed on my blog: https://blog.carl.pro/tag/unity/.
+
 
 ## PingPongTest
 Simple Object Bouncing/Acceleration/Glue Behaviour. (Sorry for the uninspired project name ;)

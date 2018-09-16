@@ -1,7 +1,6 @@
 # unity3d-workspace
 
-More information and videos with the code in action can be found in each sub-project. Some projects are also discussed on my blog: https://blog.carl.pro/tag/unity/.
-
+More information and videos with the code in action can be found in each sub-project. Some projects are also discussed on my blog: https://www.rational-pi.be/tag/unity/.
 
 ## PingPongTest
 Simple Object Bouncing/Acceleration/Glue Behaviour. (Sorry for the uninspired project name ;)
@@ -11,3 +10,6 @@ A simple behaviour implementing an UI multi-target tracker on 3D objects approac
 
 ## UITargetTrackerOnCursor
 A simple behaviour implementing an UI cursor on the 3D object currenly pointed at. A frame is drawn using a 9-slice sprite and 2 texts and 2 images are added to simulate kind of indicators.
+
+## Volumetric Galaxy
+Procedurally generated volumetric galaxy. A simple script that build a galaxy cloud system using a particle system, based on a template bitmap. It does not use any non-standard assets.

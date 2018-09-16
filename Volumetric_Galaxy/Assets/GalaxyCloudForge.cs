@@ -22,7 +22,7 @@ Generates a volumentic galaxy based on the passed bitmap, using the partcile sys
   <the plane>
 
 Developed by Natasha CARL, @Imifos
-License: Public domain, use on your own risk.
+License: Public domain, use at your own risk.
 */
 public class GalaxyCloudForge : MonoBehaviour
 {

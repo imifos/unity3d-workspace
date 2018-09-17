@@ -21,7 +21,7 @@ The galaxy map bitmap is from the Elite Dangerous space game, (c) by Frontier De
 
 In Action:
 
-Video: https://vimeo.com/xxxx
+Video: https://www.youtube.com/watch?v=Vpir9VS50dM
 
 Blog: coming soon
 

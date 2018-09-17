@@ -2,6 +2,8 @@
 
 A simple script that build a galaxy cloud system using a particle system, based on a template bitmap. It does not use any non-standard assets.
 
+Main class: Volumetric_Galaxy/Assets/GalaxyCloudForge.cs
+
 Note:
 
 The partcile system parameters should be set in a way that automatic culling is possible. By this Unity does not display particles that are out of the field of view. What exactly breaks the automatic culling is described here:

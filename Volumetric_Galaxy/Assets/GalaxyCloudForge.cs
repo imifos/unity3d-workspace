@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using UnityEngine;
 
 /*
@@ -71,6 +71,9 @@ public class GalaxyCloudForge : MonoBehaviour
             {
                 Color c = galaxyBitmap.GetPixel((int)x, (int)y);
 
+                if (c.g < 0.01)
+                    continue;
+
                 float px = galaxyXBase + galaxyUnityPerPixelWidth * x;
                 float pz = galaxyZBase + galaxyUnityPerPixelHeight * y;
 
@@ -86,14 +89,14 @@ public class GalaxyCloudForge : MonoBehaviour
 
                 // Small emphasis on "blue only" sectors in terms of luminosity
                 float blueFactor = 0f;
-                if (c.r < 0.2 && c.g < 0.3)
-                    blueFactor = (1 - c.b) / 9;
+                if (c.r < 0.2 && c.g < 0.3 && c.g > 0.01)
+                    blueFactor = (1 - c.b) / 4;
 
                 ParticleSystem.Particle p = new ParticleSystem.Particle
                 {
                     position = new Vector3(px, galaxyYBase, pz),
                     startSize = Random.Range(40 + 100 * axisDistanceFactor, 70 + 150 * axisDistanceFactor),
-                    startColor = new Color(c.r, c.g, c.b, 0.1f + (1 - axisDistanceFactor) * 0.5f + blueFactor)
+                    startColor = new Color(c.r, c.g, c.b, 0.05f + (1.0f - axisDistanceFactor) * 0.3f + blueFactor)
                 };
 
                 particles.Add(p);
